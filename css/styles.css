@@ -244,6 +244,7 @@ body {
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -543,6 +544,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 .footer-container {
@@ -634,13 +636,15 @@ img {
 .subscribe-btn {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 200px;
   height: 50px;
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   margin-left: 12px;
+  padding: 10px 28px;
 }
 
 .footer-send-icon {
@@ -905,7 +909,7 @@ img {
 
 .form-text {
   width: 100%;
-  height: 100px;
+  height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -931,6 +935,7 @@ img {
   color: #757575;
   display: flex;
   align-items: center;
+  padding-left: 13px;
 }
 
 .check-text span {
@@ -945,6 +950,7 @@ img {
 
 .policy-icon {
   fill: transparent;
+  cursor: pointer;
 }
 
 .policy-check:checked + .check-text span {
@@ -957,7 +963,12 @@ img {
 }
 
 .policy-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   color: #2196f3;
+  margin-left: 5px;
+  text-decoration-line: underline;
 }
 
 .form-btn {
@@ -977,6 +988,7 @@ img {
   color: #ffffff;
   background: #188ce8;
   border-radius: 4px;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
